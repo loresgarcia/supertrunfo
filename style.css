@@ -1,0 +1,152 @@
+body {
+  font-family: fantasy
+  min-height: 854px;
+  background-image: url("https://img2.wallspic.com/previews/2/1/9/1/5/151912/151912-harry_potter-hogwarts-plaid-tartan-back-x750.jpg");
+  background-color: #000000;
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  padding-bottom: 40vh;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.page-logo {
+  width: 300px;
+}
+
+.page-title {
+  color:#a30000;
+  margin: auto;
+    
+}
+
+.imagem-titulo {
+  height: 1em;
+}
+
+button {
+  padding: 0.8rem 1.5rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+button:hover {
+  background-color: #a30000;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+h2 {
+  color: #a30000;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#carta-jogador, #carta-maquina {
+    width: 380px;
+    height: 520px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    position: relative;
+    background-size: 350px 300px;
+    background-repeat: no-repeat;
+    background-position-x: 10px;
+    background-position-y: 5px;
+    border-radius: 33px;
+}
+
+#carta-jogador h3 {
+    text-align: center;
+}
+
+.carta-imagem {
+    border: 3px solid black;
+    height: 70px;
+    margin: 10px;
+}
+
+.carta-imagem img {
+    width: 80%;
+    height: 80%;
+}
+
+.carta-status {
+    height: 160px;
+    margin: 2rem;
+    color: white;
+    z-index: 2;
+}
+
+.carta-status input {
+    margin: 20px 10px;
+}
+
+.carta-status p {
+    margin-bottom: 2rem;
+}
+
+.resultado-final {
+    color: black;
+    font-size: 2rem;
+    font-weigth: bolder;
+    padding: 1rem;
+    border: 2px solid #a30000;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.--spacing {
+    margin-left: 2.5rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.carta-subtitle {
+    z-index: 2;
+    position: absolute;
+    top: 40px;
+    left: 37px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: auto;
+}
+
+#cartas {
+    width: 100%;
+    display: flex;
+    justify-content: normal;
+}
+
+#placar, #quantidade-cartas {
+    color: black;
+    background-color: white;
+    margin: auto;
+    width: 300px;
+  
+}
+
+#opcoes {
+    text-align: start;
+}
